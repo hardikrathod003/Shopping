@@ -25,7 +25,7 @@ class _Cart_pageState extends State<Cart_page> {
         Container(
           color: Colors.white,
           width: double.infinity,
-          padding: const EdgeInsets.only(top: 70, left: 11, bottom: 10),
+          padding: const EdgeInsets.only(top: 10, left: 11, bottom: 10),
           child: const Text(
             "Shopping Cart",
             style: TextStyle(
