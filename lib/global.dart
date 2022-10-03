@@ -63,7 +63,7 @@ class Global {
     {
       'image':
           "https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/41-a+qwZXgL._SX342_SY445_.jpg",
-      'name': 'Nintendo Switch OLED model With White set',
+      'name': 'Nintendo Switch OLED model',
       'price': 30999,
     },
   ];

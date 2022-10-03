@@ -17,7 +17,7 @@ class _Product_pageState extends State<Product_page> {
         Container(
           color: Colors.white,
           width: double.infinity,
-          padding: EdgeInsets.only(top: 70, left: 11, bottom: 10),
+          padding: EdgeInsets.only(top: 10, left: 11, bottom: 10),
           child: Text(
             "E- commerce App",
             style: TextStyle(

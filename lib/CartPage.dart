@@ -42,46 +42,6 @@ class _Cart_pageState extends State<Cart_page> {
                 ),
                 GestureDetector(
                   onTap: () async {
-                    // ShowDatePicker(
-                    //   initialDateTime: currentDate,
-                    //   // use24hFormat: true,
-                    //   onDateTimeChanged: (dateTime) {
-                    //     setState(() {
-                    //       currentDate = dateTime;
-                    //       if (currentDate.hour > 11) {
-                    //         period = "PM";
-                    //       } else {
-                    //         period = "AM";
-                    //       }
-                    //       currentDate = dateTime;
-                    //       if (currentDate.month == 1) {
-                    //         selectedMonth = "January";
-                    //       } else if (currentDate.month == 2) {
-                    //         selectedMonth = "February";
-                    //       } else if (currentDate.month == 3) {
-                    //         selectedMonth = "March";
-                    //       } else if (currentDate.month == 4) {
-                    //         selectedMonth = "April";
-                    //       } else if (currentDate.month == 5) {
-                    //         selectedMonth = "May";
-                    //       } else if (currentDate.month == 6) {
-                    //         selectedMonth = "Jun";
-                    //       } else if (currentDate.month == 7) {
-                    //         selectedMonth = "July";
-                    //       } else if (currentDate.month == 8) {
-                    //         selectedMonth = "August";
-                    //       } else if (currentDate.month == 9) {
-                    //         selectedMonth = "September";
-                    //       } else if (currentDate.month == 10) {
-                    //         selectedMonth = "October";
-                    //       } else if (currentDate.month == 11) {
-                    //         selectedMonth = "November";
-                    //       } else if (currentDate.month == 12) {
-                    //         selectedMonth = "December";
-                    //       }
-                    //     });
-                    //   },
-                    // ),
                     DateTime? pickedDate = await showDatePicker(
                         context: context,
                         initialDate: DateTime.now(),
