@@ -67,7 +67,7 @@ class Global {
       'price': 30999,
     },
   ];
-  static List<Map> allCarts = [];
+  static List allCarts = [];
   static List value = [];
   static dynamic gst = 0;
   static dynamic subtotal = 0;
